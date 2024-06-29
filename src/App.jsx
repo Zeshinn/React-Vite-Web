@@ -4,7 +4,7 @@ function App() {
   return(<>
     <Counter/>
     <footer>
-      <p>Koski&nbsp;e&nbsp;pedal&copy;</p>
+      <p>Koksi&nbsp;e&nbsp;pedal&copy;</p>
     </footer>
   </>);
 }
