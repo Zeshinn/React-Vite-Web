@@ -1,10 +1,12 @@
-import MyComponent from "./MyComponent";
-import Counter from "./Counter";
+import ColorPicker from "./ColorPicker.jsx";
+import Counter from "./Counter.jsx"
 function App() {
   return(<>
+    
     <Counter/>
+    <ColorPicker/>
     <footer>
-      <p>Koksi&nbsp;e&nbsp;pedal&copy;</p>
+      <p>Xaxo&copy;</p>
     </footer>
   </>);
 }
