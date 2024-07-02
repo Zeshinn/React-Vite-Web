@@ -74,7 +74,7 @@ input[type="color"]{
 }
 
 .counter-button:hover{
-    background-color: #883333;
+    /*background-color: #883333;*/
 }
 
 footer{
