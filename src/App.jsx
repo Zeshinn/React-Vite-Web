@@ -1,5 +1,4 @@
-import ColorPicker from "./ColorPicker.jsx";
-import Counter from "./Counter.jsx"
+
 import Mixed from "./Mixed.jsx";
 function App() {
   return(<>
