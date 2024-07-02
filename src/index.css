@@ -71,6 +71,7 @@ input[type="color"]{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.25s ease;
 }
 
 .counter-button:hover{
