@@ -14,9 +14,20 @@ function Mixed(){
     const increment = () => {
         setCount(prevCount => prevCount + 1);
     }
-
+    const incrementHalf = () => {
+        setCount(prevCount => prevCount + 16);
+    }
+    const incrementFull = () => {
+        setCount(prevCount => prevCount + 26);
+    }
     const decrement = () => {
         setCount(prevCount => prevCount - 1);
+    }
+    const decrementHalf = () => {
+        setCount(prevCount => prevCount - 16);
+    }
+    const decrementFull = () => {
+        setCount(prevCount => prevCount - 26);
     }
 
     const reset = () => {
@@ -28,12 +39,16 @@ function Mixed(){
                 <p className="count-display">{count}</p>
             </div>
             <div className='counter-container'>
-                <button className="counter-button" onClick={decrement} style={{backgroundColor: color}}>Decrement</button>
+                <button className="counter-button" onClick={decrementHalf} style={{backgroundColor: color}}>-16</button>
+                <button className="counter-button" onClick={decrementFull} style={{backgroundColor: color}}>-26</button>
+                <button className="counter-button" onClick={decrement} style={{backgroundColor: color}}>-1</button>
                 <button className="counter-button" onClick={reset} style={{backgroundColor: color}}>Reset</button>
-                <button className="counter-button" onClick={increment} style={{backgroundColor: color}}>Increment</button>
+                <button className="counter-button" onClick={increment} style={{backgroundColor: color}}>+1</button>
+                <button className="counter-button" onClick={incrementHalf} style={{backgroundColor: color}}>+16</button>
+                <button className="counter-button" onClick={incrementFull} style={{backgroundColor: color}}>+26</button>
             </div>
             <div className="color-picker-container">
-                <h1>Color Picker</h1>
+                <h1 className='color-picker-heading'>Color Picker</h1>
                 <div className="color-display" style={{backgroundColor: color}}>
                     <p>Selected&nbsp;Color:&nbsp;{color}</p>
                 </div>
