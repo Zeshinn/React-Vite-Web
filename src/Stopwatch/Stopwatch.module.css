@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+
+}
+
+.StopWatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+    padding: 30px;
+}
+
+.Display{
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+
+.Controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+
+}
+
+.StartButton{
+    background-color: hsl(120, 100%, 25%);
+
+}
+
+.StartButton:hover{
+    background-color: hsl(120, 100%, 20%);
+}
+
+.StopButton{
+    background-color: hsl(0, 100%, 50%);
+
+}
+
+.StopButton:hover{
+    background-color: hsl(0, 100%, 45%);
+}
+
+.ResetButton{
+    background-color: hsl(195, 100%, 50%);
+}
+
+.ResetButton:hover{
+    background-color: hsl(195, 100%, 45%);
+}
+
+@media (max-width: 505px){
+    .Controls{
+        display: flex;
+        flex-direction: column;
+    }
+}

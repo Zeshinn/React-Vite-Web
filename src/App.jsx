@@ -1,10 +1,11 @@
 import Mixed from "./Mixed.jsx";
-import Clock from "./Clock/Clock.jsx";
+import Stopwatch from "./Stopwatch/Stopwatch.jsx";
 function App() {
   return(
   <>
-    <Clock/>
-    {/*<Mixed/>*/}
+    <Stopwatch/>
+    {/*<Clock/>
+    <Mixed/>*/}
     <footer>
       <p>Xaxo&copy;</p>
     </footer>
